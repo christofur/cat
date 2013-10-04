@@ -9,7 +9,7 @@ How To Use
 Create a Cat or two:
 
 ```
-public class AvailableMemory : ICanMeow
+public class AvailableMemoryCat : ICanMeow
 {
 	public Meow Meow()
 	{
@@ -25,7 +25,7 @@ public class AvailableMemory : ICanMeow
 }
 ```
 
-Pop the Cat DLLs in a folder, then run the Cat engine on the folder
+Pop the Cat DLL(s) in a folder, then run the Cat engine on the folder
 
 ```
 var cats = new CatCollection(@"path\to\my\cats");
