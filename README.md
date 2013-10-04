@@ -39,3 +39,4 @@ foreach (var cat in cats)
 Do whatever you want with the output! Try serving the messsages as JSON through Nancy, via the command line, or write to a log. 
 
 
+![This is a Cat](http://ih3.redbubble.net/image.11748456.8987/sticker,375x360.png)
