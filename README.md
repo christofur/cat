@@ -6,7 +6,7 @@ Lightweight modular diagnostics reporting for .NET
 How To Use
 ----------
 
-1. Create a Cat or two:
+Create a Cat or two:
 
 ```
 public class AvailableMemory : ICanMeow
@@ -25,7 +25,7 @@ public class AvailableMemory : ICanMeow
 }
 ```
 
-2. Pop the Cat DLLs in a folder, then run the Cat engine on the folder
+Pop the Cat DLLs in a folder, then run the Cat engine on the folder
 
 ```
 var cats = new CatCollection(@"path\to\my\cats");
@@ -36,6 +36,6 @@ foreach (var cat in cats)
 }
 ```
 
-3. Do whatever you want with the output! Try serving the messsages as JSON through Nancy, via the command line, or write to a log. 
+Do whatever you want with the output! Try serving the messsages as JSON through Nancy, via the command line, or write to a log. 
 
 
