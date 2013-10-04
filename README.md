@@ -18,7 +18,7 @@ public class AvailableMemory : ICanMeow
 		{
 			DateStamp = DateTime.Now,
 			MeowCode = "AVAILABLE_MEMORY",
-			Origin = "Chris' Cpmpiter",
+			Origin = "Chris' Cpmputer",
 			Message = "Available RAM is " + availableRam + "MB"
 		};
 	}
