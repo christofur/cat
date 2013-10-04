@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cat.Core", "Cat.Core\Cat.Core.csproj", "{CABEB425-32F9-490B-9F01-7BA5071C573B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cat.AvailableDiskSpace", "Cat.Meow.AvailableDiskSpace\Cat.AvailableDiskSpace.csproj", "{5D84108D-57C8-4062-977B-6313BA6CF268}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cat.Testing.Console", "Cat.Testing.Console\Cat.Testing.Console.csproj", "{9CE23718-4FE7-4165-AE2D-7D4DDEA9B182}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Cats", "Cats", "{C7C5E517-F06E-4D3D-96A7-B489F1FF3504}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cat.AvailableMemory", "Cat.AvailableMemory\Cat.AvailableMemory.csproj", "{D128CABA-1845-427C-BB5D-2672BD6EC6CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cat.Hosting.Nancy", "Cat.Testing.Nancy\Cat.Hosting.Nancy.csproj", "{B262361B-81FE-448E-92EB-ECBC32B70DD1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cat.RowsInUmbracoLog", "Cat.RowsInUmbracoLog\Cat.RowsInUmbracoLog.csproj", "{BE387679-00C6-4864-9D7D-938D15F9D981}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CABEB425-32F9-490B-9F01-7BA5071C573B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CABEB425-32F9-490B-9F01-7BA5071C573B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CABEB425-32F9-490B-9F01-7BA5071C573B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CABEB425-32F9-490B-9F01-7BA5071C573B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D84108D-57C8-4062-977B-6313BA6CF268}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D84108D-57C8-4062-977B-6313BA6CF268}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D84108D-57C8-4062-977B-6313BA6CF268}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D84108D-57C8-4062-977B-6313BA6CF268}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CE23718-4FE7-4165-AE2D-7D4DDEA9B182}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CE23718-4FE7-4165-AE2D-7D4DDEA9B182}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CE23718-4FE7-4165-AE2D-7D4DDEA9B182}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CE23718-4FE7-4165-AE2D-7D4DDEA9B182}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D128CABA-1845-427C-BB5D-2672BD6EC6CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D128CABA-1845-427C-BB5D-2672BD6EC6CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D128CABA-1845-427C-BB5D-2672BD6EC6CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D128CABA-1845-427C-BB5D-2672BD6EC6CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B262361B-81FE-448E-92EB-ECBC32B70DD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B262361B-81FE-448E-92EB-ECBC32B70DD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B262361B-81FE-448E-92EB-ECBC32B70DD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B262361B-81FE-448E-92EB-ECBC32B70DD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE387679-00C6-4864-9D7D-938D15F9D981}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE387679-00C6-4864-9D7D-938D15F9D981}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE387679-00C6-4864-9D7D-938D15F9D981}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE387679-00C6-4864-9D7D-938D15F9D981}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5D84108D-57C8-4062-977B-6313BA6CF268} = {C7C5E517-F06E-4D3D-96A7-B489F1FF3504}
+		{D128CABA-1845-427C-BB5D-2672BD6EC6CD} = {C7C5E517-F06E-4D3D-96A7-B489F1FF3504}
+		{BE387679-00C6-4864-9D7D-938D15F9D981} = {C7C5E517-F06E-4D3D-96A7-B489F1FF3504}
+	EndGlobalSection
+EndGlobal
